@@ -21,12 +21,12 @@ const HeroSection = () => {
         </div>
         <p className="text-black text-lg">AVAILABLE FOR WORK</p>
     </motion.div>
-    <div className=" text-[55px] font-semibold leading-tight text-black tracking-wider mt-8">
+    <div className=" text-[55px] font-normal leading-tight text-black mt-8">
         <h1>We recognized a <br /> gap in the
         <span className="bg-cutomOrange"> creative <br /></span> industry</h1>
     </div>
    </div>
-   <p className=" absolute top-[72%] text-sm left-[38%] w-[300px]">Develop compelling content that
+   <p className=" absolute top-[72%] text-[12px] leading-6 left-[38%] w-[300px]">Develop compelling content that
 engages and resonates with your audience,
 enhancing your brand's storytelling and reach.</p>
     </div>
