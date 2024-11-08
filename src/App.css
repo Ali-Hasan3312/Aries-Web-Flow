@@ -1,7 +1,8 @@
-@font-face {
-  font-family: 'Satoshi';
-  src: url('../fonts/Satoshi-Black.woff2') format('otf'),
-}
 body{
   font-family: "Poppins", sans-serif;
+}
+.aries{
+  background-image: url('./assets//AriesWebflow.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
 }
