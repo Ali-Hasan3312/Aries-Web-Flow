@@ -1,8 +1,19 @@
+import AnimText from "./AnimText";
 import Navbar from "./Navbar"
 import { motion } from 'framer-motion';
 const HeroSection = () => {
+  // const icon = {
+  //   hidden: {
+  //     pathLength: 0,
+  //     fill: "rgba(255, 255, 255, 0)"
+  //   },
+  //   visible: {
+  //     pathLength: 1,
+  //     fill: "rgba(255, 255, 255, 1)"
+  //   }
+  // }
   return (
-    <div className="h-[100vh] overflow-hidden w-[100vw] relative bg-gradient-to-t from-cutomGrey to-cutomGrey2">
+    <div className="aries h-[100vh] overflow-hidden w-[100vw] relative">
      <Navbar />
    <div className="absolute top-[50%] overflow-hidden left-32 max-sm:left-8 transform -translate-y-1/2">
    <motion.div
@@ -21,10 +32,20 @@ const HeroSection = () => {
         </div>
         <p className="text-black text-lg max-sm:text-sm">AVAILABLE FOR WORK</p>
     </motion.div>
-    <div className="text-[55px] max-sm:text-[30px] font-normal leading-tight text-black mt-8">
-        <h1>We recognized a <br /> gap in the
-        <span className="bg-cutomOrange"> creative <br /></span> industry</h1>
+    <div className="text-[55px] max-sm:text-[30px] w-[500px] font-normal leading-tight text-black -mt-16">
+        <h1></h1>
+        <AnimText delay={1} />
     </div>
+   </div>
+   <div className=" mt-8 ml-8">
+   {/* <svg width="500" height="100">
+  <motion.line
+   d="M0 100V0l50 50 50-50v100L75 75l-25 25-25-25z"
+   variants={icon}
+   initial="hidden"
+   whileInView="visible"
+  x1="0" y1="80" x2="100" y2="20" stroke="black" />
+</svg> */}
    </div>
     </div>
   )

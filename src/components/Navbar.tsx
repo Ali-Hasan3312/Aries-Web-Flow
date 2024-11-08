@@ -51,19 +51,19 @@ const Navbar = () => {
        className=" h-[300px] z-50 w-[100vw] absolute top-14 pt-4 px-4 right-0 bg-black flex flex-col gap-4 text-white">
        <div className="flex items-center justify-between gap-4">
                 <button>Home</button>
-                <IoIosArrowDown />
+               
             </div>
             <div className="flex items-center justify-between gap-4">
                 <button>About Us</button>
-                <IoIosArrowDown />
+                
             </div>
             <div className="flex items-center justify-between gap-4">
                 <button>Work</button>
-                <IoIosArrowDown />
+               
             </div>
             <div className="flex items-center justify-between gap-4">
                 <button>Other</button>
-                <IoIosArrowDown />
+               
             </div>
             <div className="flex items-center gap-4">
                 <button>What's New</button>
@@ -89,25 +89,24 @@ const Navbar = () => {
             </div>
             <div className="flex items-center gap-4">
                 <button>Home</button>
-                <IoIosArrowDown />
+             
             </div>
             <div className="flex items-center gap-4">
                 <button>About Us</button>
-                <IoIosArrowDown />
+                
             </div>
             <div className="flex items-center gap-4">
                 <button>Work</button>
-                <IoIosArrowDown />
+               
             </div>
             <div className="flex items-center gap-4">
                 <button>Other</button>
-                <IoIosArrowDown />
             </div>
         </div>
         <div className="flex gap-6">
         <div className="flex items-center gap-4">
                 <button>What's New</button>
-                <IoIosArrowDown />
+              
             </div>
             <div className="flex items-center gap-4">
                 <button>Pricing</button>
